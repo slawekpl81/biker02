@@ -8,7 +8,7 @@ class BikeBase(BaseModel):
 
 
 class BikeCreate(BikeBase):
-    pass
+    owner_id: str
 
 
 class Bike(BikeBase):
